@@ -45,15 +45,18 @@ Result of $a + b$. // 輸出說明開始
 ```
 
 ```bash
-cat [sum.zjson](sum.zjson)
+cat sum.zjson
 ```
+[sum.zjson](sum.zjson)
 
 #### 重新定向
 
 直接輸入顯然很不方便，有時我們需要對內容進行排版，畢竟ＰＤＦ赴至好容易跑掉，當然別忘惹加上 LaTeX。這時，我們可以依照輸入順序存到文字檔裡，再重新定向到 *stdin*。以下以 `P_4_7` 為例。
 
 ```bash
-vim [P_4_7.txt](P_4_7.txt)
+vim P_4_7.txt
 python3 gen.py < P_4_7.txt
-cat [P_4_7.zjson](P_4_7.zjson)
+cat P_4_7.zjson
 ```
+
+[P_4_7.txt](P_4_7.txt) [P_4_7.zjson](P_4_7.zjson)
