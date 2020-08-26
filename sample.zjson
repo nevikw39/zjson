@@ -1,0 +1,51 @@
+{
+    "title": "例題 P-1-1. 合成函數(1)",
+    "samplecode": "",
+    "problemid": "",
+    "display": "",
+    "difficulty": 0,
+    "backgrounds": "[]",
+    "keywords": "[]",
+    "sortable": "",
+    "scores": [
+        20,
+        20,
+        20,
+        20,
+        20
+    ],
+    "timelimits": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "hint": "",
+    "specialjudge_language": {
+        "suffix": "python",
+        "name": "PYTHON"
+    },
+    "inserttime": "",
+    "memorylimit": 64,
+    "sampleinput": "",
+    "sampleoutput": "",
+    "theinput": "<p>輸入一行，長度不超過 <code>1000</code>，它是一個 $f$ 與 $g$ 的合成函數，但所有的括弧與逗號都換成空白。輸入的整數絕對值皆不超過 <code>1000</code>。</p>",
+    "theoutput": "<p>輸出函數值。最後答案與運算過程不會超過正負 10 億的區間。</p>",
+    "updatetime": "",
+    "testfilelength": 5,
+    "judgemode": "Tolerant",
+    "specialjudge_code": "",
+    "author": "",
+    "errmsg_visible": 1,
+    "problemimages": [],
+    "testinfiles": [
+    ],
+    "testoutfiles": [
+    ],
+    "comment": "",
+    "locale": "zh_TW",
+    "reference": "[AP325]",
+    "language": "CPP",
+    "content": "<p>令 $f(x)=2x-1$, $g(x,y)=x+2y-3$。本題要計算一個合成函數的值，例如 $f(g(f(1),3))=f(g(1,3))=f(4)=7$。</p>"
+}
